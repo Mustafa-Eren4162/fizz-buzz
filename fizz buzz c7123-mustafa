@@ -1,0 +1,32 @@
+numbers = list(range(1,100))
+
+fizzbuzz = []
+
+
+
+for i in numbers:
+
+    if i % 3 == 0 and i % 5 != 0  :
+
+        i = "Fizz"
+
+        fizzbuzz.append(i)
+
+    elif i % 5 == 0 and i % 3 != 0 :
+
+        i = "Buzz"
+
+        fizzbuzz.append(i)
+
+    elif i % 3 == 0 and i % 5 == 0 :
+
+        i = "FizzBuzz"
+
+        fizzbuzz.append(i)
+
+    else :
+
+        fizzbuzz.append(i)
+
+fizzbuzz
+
